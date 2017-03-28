@@ -1,9 +1,4 @@
 .gradle/
 .idea/
-README.md
 build/
 gradle/
-gradlew
-gradlew.bat
-settings.gradle
-src/
