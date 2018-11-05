@@ -10,6 +10,14 @@ repositories {
     mavenCentral()
 }
 
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'net.saliman:gradle-cobertura-plugin:2.4.0'
+    }
+}
 
 dependencies {
     testCompile('junit:junit:4.12') {
